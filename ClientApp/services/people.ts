@@ -1,6 +1,6 @@
 import Axios, { AxiosRequestConfig } from "axios";
-import { IPersonViewModel } from "../viewModels/person";
-import { IPersonFormViewModel } from "../viewModels/personForm";
+import { IPersonViewModel } from "../viewmodels/person";
+import { IPersonFormViewModel } from "../viewmodels/personForm";
 
 export default class PeopleService {
   private static _instance: PeopleService;
