@@ -57,7 +57,7 @@ namespace FormationVueDotnet
             }
 
             app.UseCors(builder =>
-                builder.WithOrigins("http://localhost:8080")
+                builder.WithOrigins("http://localhost:5000")
                     .AllowAnyHeader()
                     .AllowAnyMethod()
                     .AllowCredentials()
